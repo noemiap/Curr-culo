@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
 .banner {
     background: url('../css/img/violeta.jpg');
     background-position: center;
@@ -9,6 +13,16 @@
 .perfil{
     border-radius: 50%;
     border: white solid 0.5rem;
+    height: 60vh;
+}
+
+
+.myName{
+    font-family:  'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    color:#fff;
+    font-weight: 600;
+
 }
 
 @media (max-width: 576px) {
@@ -16,11 +30,67 @@
         background-position: right;
         height: 100vh;
     }
+        
+    .perfil{
+       
+        height: 100%;
+    }
+
+
+    .myName{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5rem;
+        color:#fff;
+        font-weight: 300;
+        text-align: center;
+
+    }
+
 }
-@media (max-width: 768px) { }
+@media (min-width: 577px)  and (max-width: 1200px) {
 
-@media (max-width: 992px) { }
 
-@media (max-width: 1200px) { }
+    .banner {
+        background-position: right;
+        height: 80vh;
+    }
+        
+    .perfil{
+       
+        height: 100%;
+    }
 
-@media (max-width: 1400px) { }
+
+
+
+    
+}
+
+
+
+
+  h1 {
+    color: #d83d3d;
+    text-align: center;
+    
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+
+  .section h2 {
+    color: #d83d3d;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    margin: 0;
+  }
+
+  .section .sub-heading {
+    color: #d83d3d;
+    font-weight: bold;
+  }
+ 
+
