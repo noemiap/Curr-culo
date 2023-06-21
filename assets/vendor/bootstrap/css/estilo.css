@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cormorant:wght@300&family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cormorant:wght@300&family=Crete+Round&family=Lobster+Two:wght@700&display=swap');
 .banner {
     background: url('../css/img/violeta.jpg');
     background-position: center;
@@ -70,27 +69,18 @@
 
 
   h1 {
-    color: #d83d3d;
+    color: #ffffff;
     text-align: center;
+    font-family: 'Lobster Two', cursive;
+
     
   }
+h4 {
+  font-family: 'Crete Round', serif;
+}
 
-  .section {
-    margin-bottom: 20px;
-  }
+.palavra{
+  color:#fff;
+}
 
-  .section h2 {
-    color: #d83d3d;
-    margin-bottom: 10px;
-  }
-
-  .section p {
-    margin: 0;
-  }
-
-  .section .sub-heading {
-    color: #d83d3d;
-    font-weight: bold;
-  }
- 
 
